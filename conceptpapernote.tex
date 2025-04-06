@@ -1,0 +1,69 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{amsmath, amssymb, graphicx}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+
+\begin{document}
+
+\begin{center}
+    \textbf{Kathmandu University}\\
+    \textbf{School of Science}\\
+    \textbf{Department of Mathematics}
+\end{center}
+
+\vspace{0.5cm}
+\noindent\textbf{Course Code:} MATH 451 \hfill \textbf{Date of Submission:} April 4, 2025\\
+\textbf{Course Title:} Mathematics Seminar
+
+\vspace{1cm}
+
+\noindent\textbf{Batch 2021: Group F}\\
+\textbf{Team Members:}\\
+Abhinaash Tiwari [030152-21](at22031721@student.ku.edu.np; 9865471375) \\
+Raj Shrestha [030150-21](rs20031721@student.ku.edu.np; 9822443117)\\
+Siman Mehta [028308-20](sm15031720@student.ku.edu.np; 9861289825)\\
+\textbf{Team Leader:} Abhinaash Tiwari
+
+\vspace{1cm}
+
+\begin{center}
+    \textbf{\Large Singular Value Decomposition (SVD) for Image Compression}
+\end{center}
+
+\hrule
+
+\section{Introduction}
+Image compression is a crucial technique in digital image processing, enabling efficient storage and transmission of images while maintaining acceptable visual quality. Singular Value Decomposition (SVD) is a mathematical approach that decomposes an image matrix into three smaller matrices, allowing effective compression by retaining only the most significant singular values. This method provides a balance between compression ratio and image quality, making it widely applicable in fields such as medical imaging, multimedia, and remote sensing.
+
+\section{Objectives}
+\begin{itemize}
+    \item To analyze the effectiveness of Singular Value Decomposition (SVD) in image compression.
+    \item To implement an SVD-based image compression algorithm and evaluate its performance.
+    \item To compare the quality of compressed images using different numbers of singular values.
+    \item To optimize the trade-off between compression ratio and image fidelity.
+    \item To assess the computational efficiency of SVD-based compression for real-world applications.
+\end{itemize}
+
+\section{Problem Statement}
+With the increasing demand for high-resolution images in various applications, efficient image compression techniques are essential to reduce storage space and transmission bandwidth without significant loss of quality. Traditional compression methods such as JPEG and PNG rely on lossy and lossless techniques, which may introduce artifacts or require high computational resources. SVD provides a mathematical approach that can compress images effectively while preserving key visual features. However, optimizing the balance between compression ratio and image quality remains a challenge, which this study aims to address.
+
+\section{Methodology}
+\begin{enumerate}
+    \item \textbf{Data Collection:} Select a set of standard test images for analysis.
+    \item \textbf{SVD Implementation:} Convert images into grayscale matrices and apply Singular Value Decomposition.
+    \item \textbf{Compression Strategy:} Retain only a subset of singular values to reconstruct the compressed image.
+    \item \textbf{Performance Evaluation:} Compare the compressed images using metrics such as Peak Signal-to-Noise Ratio (PSNR), Structural Similarity Index (SSIM), and Compression Ratio (CR).
+    \item \textbf{Comparison with Existing Methods:} Evaluate SVD-based compression against other techniques like JPEG and Principal Component Analysis (PCA).
+    \item \textbf{Optimization and Fine-Tuning:} Adjust the number of retained singular values to balance image quality and compression efficiency.
+\end{enumerate}
+
+\section{Expected Outcomes}
+\begin{itemize}
+    \item A functional implementation of SVD-based image compression.
+    \item Performance evaluation of different compression levels based on retained singular values.
+    \item A comparative analysis of SVD compression with conventional methods in terms of quality and efficiency.
+    \item Insights into optimizing SVD parameters for effective image compression in various applications.
+\end{itemize}
+
+
+\end{document}
